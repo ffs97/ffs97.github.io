@@ -1,3 +1,30 @@
+body {
+    padding-top: 100vh;
+    margin: 0;
+    font-family: "Convergence", sans-serif;
+    color: #505050;
+    background-color: #2d2d2d;
+    user-select: none;
+    font-size: 14px;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    overflow-y: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
 a {
     color: #e16053;
     text-decoration: none;
@@ -30,31 +57,4 @@ a:active {
 
 b {
     color: #e16053;
-}
-
-body {
-    padding-top: 100vh;
-    margin: 0;
-    font-family: "Convergence", sans-serif;
-    color: #505050;
-    background-color: #2d2d2d;
-    user-select: none;
-    font-size: 14px;
-    overflow-x: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    overflow-y: auto;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 500;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-p {
-    margin: 0 0 10px 0;
 }

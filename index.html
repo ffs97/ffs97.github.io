@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <title>Gurpreet Singh</title>
 
-    <link rel="stylesheet" href="stylesheets/fonts.css">
-    <link rel="stylesheet" href="stylesheets/header.css">
-    <link rel="stylesheet" href="stylesheets/main.css">
-    <link rel="stylesheet" href="stylesheets/elements.css">
-    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 
 </head>
 
@@ -19,13 +22,13 @@
         <div class="header-left">
             <ul class="header-nav">
                 <li>
-                    <a href="#about">Meet Me</a>
+                    <span class="link" data-goto="about">Meet Me</span>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <span class="link" data-goto="resume">Resume</span>
                 </li>
                 <li>
-                    <a href="#academics">Academics</a>
+                    <span class="link" data-goto="coursework">Coursework</span>
                 </li>
             </ul>
         </div>
@@ -40,7 +43,7 @@
     <div class="container-heading " id="meetme ">
 
         <div class="container-heading-avatar ">
-            <img src="images/avatar.png ">
+            <img src="includes/images/avatar.png ">
         </div>
 
         <div class="container-heading-content ">
@@ -65,7 +68,7 @@
         <div class="container">
 
             <div class="middle-text " style="margin-bottom: 60px; ">
-                Hello! You can call me Gurpreet, or if you are more daring "O ' Captain My Captain" :)
+                Hello! You can call me Gurpreet/Guggu, or if you are more daring "O ' Captain My Captain" :)
                 <br>
                 <br> If you are looking for some good music, visit my
                 <a href="https://www.youtube.com/user/dbzntct/playlists">Youtube</a> channel
@@ -75,167 +78,28 @@
             <div id="contact">
                 <div class="contact-social-block">
                     <a href="https://www.facebook.com/fatFighter97">
-                        <img src="images/facebook.png">
+                        <img src="includes/images/facebook.png">
                     </a>
                 </div>
                 <div class="contact-social-block">
                     <a href="https://www.instagram.com/fat_fighter_97">
-                        <img src="images/instagram.ico">
+                        <img src="includes/images/instagram.ico">
                     </a>
                 </div>
                 <div class="contact-profile-block">
-                    <img src="images/profile.jpg">
+                    <img src="includes/images/profile.jpg">
                 </div>
                 <div class="contact-social-block">
                     <a href="https://www.github.com/fat-fighter">
-                        <img src="images/github.ico">
+                        <img src="includes/images/github.ico">
                     </a>
                 </div>
                 <div class="contact-social-block">
                     <a href="https://www.linkedin.com/in/gurpreet-singh-b0a16910a/">
-                        <img src="images/linkedin.png">
+                        <img src="includes/images/linkedin.png">
                     </a>
                 </div>
             </div>
-
-            <!-- <h2>SKILLS</h2>
-
-            <div id="skills">
-                <div class="skill-group">
-                    <div class="skill-title">Programming Languages</div>
-                    <div class="skill">
-                        C/C++
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Python
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        R
-                        <div class="skill-rate skill-rate-2">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Octave/MATLAB
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Java
-                        <div class="skill-rate skill-rate-1">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-group">
-                    <div class="skill-title">Scripts</div>
-                    <div class="skill">
-                        Bash
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        VBScript
-                        <div class="skill-rate skill-rate-2">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-group">
-                    <div class="skill-title">Assembly Languages</div>
-                    <div class="skill">
-                        MIPS
-                        <div class="skill-rate skill-rate-4">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Verilog
-                        <div class="skill-rate skill-rate-2">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-group">
-                    <div class="skill-title">Web Development</div>
-                    <div class="skill">
-                        PHP
-                        <div class="skill-rate skill-rate-4">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Javascript/JQuery
-                        <div class="skill-rate skill-rate-4">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        MySQL
-                        <div class="skill-rate skill-rate-4">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        CSS/HTML
-                        <div class="skill-rate skill-rate-4">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Node.js
-                        <div class="skill-rate skill-rate-2">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-group">
-                    <div class="skill-title">Miscellaneous</div>
-                    <div class="skill">
-                        Machine Learning (Basic Concepts)
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        gnuPlot
-                        <div class="skill-rate skill-rate-4">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Latex
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Git
-                        <div class="skill-rate skill-rate-3">
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        Photoshop
-                        <div class="skill-rate skill-rate-2">
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div> -->
         </div>
 
         <div class="break break-green" id="resume">
@@ -243,21 +107,342 @@
         </div>
 
         <div class="container resume">
-            My resume can be found
-            <a href="files/resume.pdf">here</a>
+            <div class="middle-text">
+                My resume can be found
+                <a href="includes/files/resume.pdf">here</a>.
+                The latex files are uploaded on
+                <a href="https://github.com/fat-fighter/resume">my github</a>.
+            </div>
+
+            <h2>SKILLS</h2>
+            <div id="skills"></div>
+
+            <h2>Professional Experience</h2>
+
+            <div id="experiences">
+                <div class="project">
+                    <div class="name">
+                        Goldman Sachs
+                        <div class="position">Summer Analyst</div>
+                    </div>
+                    <div class="time">
+                        Bangalore, May'18 - Jul'18
+                    </div>
+                    <br>
+                    <div class="objective" style="padding-left: 20px;">
+                        <ol>
+                            <li>Introduce changes in existing models for asset liability gap management for deposits
+                                and clearing house initial margin, and</li>
+
+                            <li>Build a lite calculator for customer margin allocation for proper internalization</li>
+                        </ol>
+                    </div>
+                    <ul>
+                        <li>Understood working of financial firms, along with basic concepts of Asset-Liability Gap (AL
+                            Gap) Management </li>
+                        <li>Identified bugs in pre-written code, and augmented features for proper AL Gap Management </li>
+                        <li>Built a waterfall logic for customer margin allocation, taking various parameters into
+                            consideration </li>
+                        <li>Built a greedy strategy for margin allocation per stock, improving the run time of the
+                            allocation logic</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Inmobi
+                        <div class="position">Data Science Intern</div>
+                    </div>
+                    <div class="time">
+                        Bangalore, May'17 - Jul'17
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Extracted Features from Ad creative images using OpenCV (in python) and Google Cloud Vision
+                            API</li>
+                        <li>Analysed Pearson Correlation with the Click Through Rate (CTR) and used variable selection
+                            (Weka) to detect explainable features </li>
+                        <li>Created a python server to handle feature extraction and prediction for building
+                            suggestions for possible Ad enhancements based on CTR</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Exxamm.com
+                        <div class="position">Web Development Intern</div>
+                    </div>
+                    <div class="time">
+                        Delhi + Remote, Jan'16 - Jul'16
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Lead architect of the core content engine and front end web interface</li>
+                        <li>Designed and developed a dashboard to add and edit questions using PHP and MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Inmobi
+                        <div class="position">Software Engineering Intern</div>
+                    </div>
+                    <div class="time">
+                        Bangalore, Dec'15
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Worked in Strategic Advertising for better in-app product discovery and user experience</li>
+                        <li>Developed a Curator Tool which scraped and rendered information from the web using python</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>PROJECTS</h2>
+
+            <div id="projects">
+                <h3>Machine Learning</h3>
+
+                <div class="project">
+                    <div class="name">
+                        Discrete Variational Autoencoders and Stochastic Block Models
+                    </div>
+                    <div class="time">
+                        Fall 2018 (Ongoing)
+                    </div>
+                    <div class="supervisor">
+                        Prof. Piyush Rai
+                    </div>
+                    <div class="course">
+                        Undergraduate Project
+                    </div>
+                    <br>
+                    <ul>
+                        <li>Surveyed continuous relaxations to discrete latent variables such as Gumbel-Softmax,
+                            Spike-and-Exp, Overlapping, Gumbolt, etc.</li>
+                        <li>Implemented GumBolt relaxation for binary latent variables with RBM prior using tensorflow
+                            and performed analysis on MNIST dataset</li>
+                        <li>Augmented GVAEs with binary latent embeddings to offer interpretable latent
+                            representations, imitating mixed membership models</li>
+                        <li>Tested the resultant model for link prediction on graph datasets such as Citeseer and Cora
+                            and achieved superior results to baseline models</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Mixture of Experts and Discrete VAE
+                    </div>
+                    <div class="time">
+                        Fall 2018
+                    </div>
+                    <div class="supervisor">
+                        Prof. Arnab Bhattacharya
+                    </div>
+                    <div class="course">
+                        CS685: Data Mining
+                    </div><br>
+                    <ul>
+                        <li>Proposed a novel model using the VAE framework for clustering in latent space, extending
+                            the ideas of the VaDE model</li>
+                        <li>Modeled the cluster assignment using a deep neural network, and facilitated fast inference
+                            by using Gumbel-Softmax relaxation</li>
+                        <li>The proposed model worked better than VaDE on clustering tasks. Analysis was performed on
+                            MNIST and Spiral datasets</li>
+                        <li>Further extended the proposed model to work as a gating function for Mixture of Experts
+                            tasks and achieved performance exceeding that of some naive baseline models</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Incremental Neural Networks Training
+                    </div>
+                    <div class="time">
+                        Spring 2018
+                    </div>
+                    <div class="supervisor">
+                        Prof. Purushottam Kar
+                    </div>
+                    <div class="course">
+                        CS777: Statistical and Algorithmic Learning Theory
+                    </div><br>
+                    <ul>
+                        <li>Two layer NNs can be represented as an ensemble of multiple single node hidden layer
+                            networks, which can be individually trained using generic boosting methods (gradient
+                            boosting), which also afford definite theoretical convergence guarantees</li>
+                        <li>Applied gradient boosting to train two layer networks incrementally and studied the
+                            convergence analysis under various constraints</li>
+                        <li>Implemented incremental NN training in python using sklearn, and applied for Softmax
+                            Regression on the MNIST Dataset</li>
+                        <li>Applied incremental training as pre-training, along with backpropagation for fine-tuning
+                            and observed remarkably better convergence</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Survey on Methods For Convex Optimization
+                    </div>
+                    <div class="time">
+                        Spring 2018
+                    </div>
+                    <div class="supervisor">
+                        Prof. Purushottam Kar
+                    </div>
+                    <div class="course">
+                        CS777: Statistical and Algorithmic Learning Theory
+                    </div><br>
+                    <ul>
+                        <li>Surveyed prominent Gradient Descent based techniques (SGD, AdaGrad, etc.) for optimization
+                            and perused the convergence bounds of each</li>
+                        <li>Reviewed and paraphrased a paper which disproves guaranteed convergence of Adam for even
+                            convex objectives using a counterexample</li>
+                        <li>Identified inconsistencies within the convergence proof for Adam as an attempt to explain
+                            its incorrectness</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Clustering and MoE for Arbitrary Shaped Clusters
+                    </div>
+                    <div class="time">
+                        Spring 2018
+                    </div>
+                    <div class="supervisor">
+                        Prof. Piyush Rai
+                    </div>
+                    <div class="course">
+                        CS698X: Bayesian Modelling and Inference
+                    </div><br>
+                    <ul>
+                        <li>Studied VAEs and surveyed clustering models (iWMM, SVAE, VaDE, etc.) for data existing in
+                            non-Gaussian shaped clusters</li>
+                        <li>Implemented Variational Deep Embeddings (VaDE) in Tensorflow to experiment on MNIST and
+                            spiral dataset to learn arbitrary shaped clusters</li>
+                        <li>Proposed gating functions based on VaDE and Stick Breaking-VAE for mixture of experts
+                            models</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Machine Comprehension using Match-LSTM
+                    </div>
+                    <div class="time">
+                        Spring 2018
+                    </div>
+                    <div class="supervisor">
+                        Prof. Harish Karnick
+                    </div>
+                    <div class="course">
+                        CS671: Natural Language Processing
+                    </div><br>
+                    <ul>
+                        <li>Surveyed various models for Machine Comprehension (FastQA, R-Net, Match-LSTM, etc.) and
+                            implemented Match-LSTM using Tensorflow</li>
+                        <li>Experimented with SQuAD and combated inefficiency of Match-LSTM to apply separate attention
+                            mechanisms for different question types</li>
+                        <li>Additionally, introduced simple changes to loss function to improve the EM score on SQuAD
+                            by a total of over 5\%</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        Scaling Recommendation Systems using K-Means Clustering
+                    </div>
+                    <div class="time">
+                        Fall 2017
+                    </div>
+                    <div class="supervisor">
+                        Prof. Purushottam Kar
+                    </div>
+                    <div class="course">
+                        CS777: Introduction to Machine Learning
+                    </div><br>
+                    <ul>
+                        <li>Used K-Means clustering to divide users into cliques, and applied Collaborative Filtering
+                            independently within each clique</li>
+                        <li>Clustered songs based on MFCC features using K-Means and quantified user features based on
+                            song clusters from the user’s learning history</li>
+                        <li>Applied the model on MSD. Also proposed simple exploration strategy based on song clusters
+                            to allow variations in suggestions provided</li>
+                    </ul>
+                </div>
+
+                <h3>Systems</h3>
+
+                <div class="project">
+                    <div class="name">
+                        Java to X86 Assembly Compiler
+                    </div>
+                    <div class="time">
+                        Spring 2018
+                    </div>
+                    <div class="supervisor">
+                        Prof. Subhajit Roy
+                    </div>
+                    <div class="course">
+                        CS335: Compiler Design
+                    </div><br>
+                    <ul>
+                        <li>Developed an end-to-end compiler in node.js for a subset of Java language to compile into
+                            x86 Assembly using jison (for parsing)</li>
+                        <li>Implemented advanced features such as classes and type casting, along with support for
+                            floats. Adjudged one of the best projects</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <div class="name">
+                        NachOS Operating System
+                    </div>
+                    <div class="time">
+                        Fall 2017
+                    </div>
+                    <div class="supervisor">
+                        Prof. Mainak Chaudhuri
+                    </div>
+                    <div class="course">
+                        CS335: Operating Systems
+                    </div><br>
+                    <ul>
+                        <li>Implemented basic operating system functions (Fork, Join, etc.) on a truncated NachOS code
+                            (provided) in C++ programming language</li>
+                        <li>Implemented and evaluated performance of algorithms for various scheduling processes and
+                            various page replacement strategies</li>
+                        <li>Implemented Shared Memory Allocation, Demand Paging and various Page Replacement Algorithms</li>
+                    </ul>
+                </div>
+
+                <h3>Miscellaneous</h3>
+
+                <div class="project">
+                    <div class="name">
+                        Smart Image Advertising
+                    </div>
+                    <div class="objective">
+                        Develop a web-app for smart advertising using image analysis
+                    </div>
+                    <ul>
+                        <li>Developed a web-app with controls to upload an image through url</li>
+                        <li>Backend program to detect objects in an image during upload using Clarifai API</li>
+                        <li>Objects stored as tags in database, and used to search through products from different
+                            e-commerce
+                            websites such Ebay, Amazon, etc. using their Affiliate API</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
-        <div class="break break-green" id="academics">
-            <h1>ACADEMICS</h1>
+        <div class="break break-green" id="coursework">
+            <h1>COURSEWORK</h1>
         </div>
 
         <div class="container">
-
-            <div class="middle-text">
-                Senior at CSE IIT Kanpur. Interested in Machine Learning ... not really
-            </div>
-
-            <h2>COURSEWORK</h2>
 
             <table>
                 <thead>
@@ -297,7 +482,8 @@
                         <td>ESO208</td>
                         <td>Numerical Methods in Engineering</td>
                         <td class="field-center">III</td>
-                        <td>Bsics methods of Regression, Splines and Function Approximation, along with Multi-variate Equation
+                        <td>Bsics methods of Regression, Splines and Function Approximation, along with Multi-variate
+                            Equation
                             solving
                         </td>
                     </tr>
@@ -341,20 +527,23 @@
                         <td>CS340</td>
                         <td>Theory of Computation</td>
                         <td class="field-center">V</td>
-                        <td>A brief discussion on language models and introduction to the theory of computational complexity</td>
+                        <td>A brief discussion on language models and introduction to the theory of computational
+                            complexity</td>
                     </tr>
                     <tr>
                         <td>CS771</td>
                         <td>Introduction to Machine Learning</td>
                         <td class="field-center">V</td>
-                        <td>Introduction to various techniques in Supervised and Unsupervised Machine Learning and introduction
+                        <td>Introduction to various techniques in Supervised and Unsupervised Machine Learning and
+                            introduction
                             to Probabilistic Machine Learning</td>
                     </tr>
                     <tr>
                         <td>CS772</td>
                         <td>Probabilistic Machine Learning</td>
                         <td class="field-center">Audit</td>
-                        <td>Probabilistic Analyisis of Various Machine Learning Algorithms and brief introduction to various
+                        <td>Probabilistic Analyisis of Various Machine Learning Algorithms and brief introduction to
+                            various
                             Sampling and Approximation Techniques</td>
                     </tr>
                 </tbody>
@@ -362,54 +551,6 @@
 
             </tbody>
             </table>
-
-            <h2>PROJECTS</h2>
-
-            <div id="projects">
-                <div class="project ongoing">
-                    <div class="name">
-                        Nonparametric Manifold Clustering for Arbitrary Spaced Clusters
-                    </div>
-                    <div class="objective"></div>
-                    <div class="approach"></div>
-                    <div class="tools"></div>
-                </div>
-                <div class=" project ongoing ">
-                    <div class="name ">
-                        Composing Sparsity in Match-LSTM for Machine Comprehension
-                    </div>
-                    <div class="objective"></div>
-                    <div class="approach"></div>
-                    <div class="tools"></div>
-                </div>
-                <div class="project ">
-                    <div class="name ">
-                        Scaling Music Recommendation System using User-Based Clustering
-                    </div>
-                    <div class="objective"></div>
-                    <div class="approach"></div>
-                    <div class="tools"></div>
-                </div>
-                <div class="project ">
-                    <div class="name ">
-                        Smart Image Advertising
-                    </div>
-                    <div class="objective">
-                        Develop a web-app for smart advertising using image analysis
-                    </div>
-                    <div class="approach">
-                        <ol>
-                            <li>Developed a web-app with controls to upload an image through url</li>
-                            <li>Backend program to detect objects in an image during upload using Clarifai API</li>
-                            <li>Objects stored as tags in database, and used to search through products from different e-commerce
-                                websites such Ebay, Amazon, etc. using their Affiliate API</li>
-                        </ol>
-                    </div>
-                    <div class="tools">
-                        PHP, MySQL, HTML/CSS, Javascript/JQuery, Clarifai API, Ebay & Amazon API’s
-                    </div>
-                </div>
-            </div>
 
         </div>
 

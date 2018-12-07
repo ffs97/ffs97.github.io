@@ -48,7 +48,12 @@ $(document).ready(function () {
         var goto = $(this).data("goto");
 
         var elem = $("#" + goto);
-        $(document).scrollTop(elem.offset().top - 80);
+        console.log($(document).scroll);
+        window.scroll({
+            top: elem.offset().top - 80,
+            left: 0,
+            behavior: "smooth"
+        });
     });
 
     var skills_block = document.querySelector("#skills");
